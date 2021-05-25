@@ -1,0 +1,125 @@
+nav{
+width: 100%;
+background: #333;
+overflow: hidden;
+height: 60px;
+background-color: #222;
+padding-top: 2px;
+height: 60px;
+}
+
+nav ul{
+padding: 0;
+margin: 0 0 0 150px;
+list-style: none;
+background: 
+}
+
+nav ul li{
+float: right;
+}
+
+.logo img{
+position:absolute;
+margin-top: 0.8%;
+margin-left: 10px;
+width: 48px;
+height: 45px;
+overflow: hidden;
+float: right;
+padding-top: 0%;
+padding-left: 0%;
+border-radius: 14px;
+
+ 
+}
+
+nav a{
+width: 100px;
+display: block;
+padding: 30px 15px;
+text-decoration: none;
+font-family: sans-serif;
+color: white;
+text-align: right;
+padding-top: 1.5%;
+    
+}
+
+
+
+
+input[type=text] {
+width: 450px;
+height: 43px;
+box-sizing: border-box;
+border: transparent;
+border-radius: 3px;
+font-size: 16px;
+color: white;
+background-color: #333;
+background-position: 10px 10px; 
+background-repeat: no-repeat;
+padding: 15px 20px 12px 0px;
+-webkit-transition: width 0.5s ease-in-out;
+-webkit-transition: width 0.3s transform;
+border-width: 5px ;
+display: block;
+margin-left: auto;
+margin-right: 25%;
+margin-top: 0.6%;
+text-align:left;
+position: absolute;
+padding: 12px 10px 12px 15px;
+    
+
+
+}
+
+input[type=text]:focus {
+width: 60%;
+position: relative;
+text-align: none;
+}
+
+.navbar{
+padding-top: 0px;
+}
+
+.navbar a{
+color: white;
+font-size: 25px;
+float: right;
+transition: 0.45s;
+}
+
+.navbar a:hover{
+color: #28CEFE;
+}
+
+
+
+.floating-btn {
+	border-radius: 26.5px;
+	background-color: darkblue;
+	border: 1px solid #001F61;
+	box-shadow: 0 16px 22px -17px #03153B;
+	color: white;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 23px;
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 20px;
+	right: 6px;
+	z-index: 999;
+}
+
+.floating-btn:hover {
+	background-color: #0097DF;
+	color: black;
+}
+
+.floating-btn:focus {
+	outline: none;
+}
